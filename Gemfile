@@ -68,3 +68,5 @@ end
 gem "devise", "~> 5.0"
 
 gem "devise-i18n", "~> 1.16"
+
+gem "erb_lint", "~> 0.9.0"
