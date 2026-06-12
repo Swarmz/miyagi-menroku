@@ -1,0 +1,236 @@
+[
+  {
+    "name": "仙台中華そば 銘店嘉一 国分町店",
+    "city": "仙台",
+    "address": "青葉区国分町3丁目8-12",
+    "website": null
+  },
+  {
+    "name": "だし廊 仙台南町通り本店",
+    "city": "仙台",
+    "address": "青葉区一番町2丁目2-11",
+    "website": null
+  },
+  {
+    "name": "みずさわ屋",
+    "city": "仙台",
+    "address": "青葉区久留2丁目5-22-3",
+    "website": null
+  },
+  {
+    "name": "仙臺 くろく",
+    "city": "仙台",
+    "address": "宮城野区つつじが丘2丁目2-12",
+    "website": null
+  },
+  {
+    "name": "自家製太麺 渡辺",
+    "city": "仙台",
+    "address": "泉区一nazaka字新道18-1",
+    "website": null
+  },
+  {
+    "name": "ラーメン二郎 仙台店2",
+    "city": "仙台",
+    "address": "青葉区立町2-8",
+    "website": null
+  },
+  {
+    "name": "仙臺 自家製麺 こいけ屋",
+    "city": "仙台",
+    "address": "若林区荒町153",
+    "website": null
+  },
+  {
+    "name": "荒町商店中華そば ふじやま",
+    "city": "仙台",
+    "address": "若林区荒町171",
+    "website": null
+  },
+  {
+    "name": "餃子と担々麺 吟",
+    "city": "仙台",
+    "address": "宮城野区つつじが丘4丁目8-6",
+    "website": null
+  },
+  {
+    "name": "水原製麺",
+    "city": "仙台",
+    "address": "青葉区一番町1丁目11-18",
+    "website": null
+  },
+  {
+    "name": "さっぽろ純連 仙台店",
+    "city": "仙台",
+    "address": "青葉区上杉2丁目9-21",
+    "website": null
+  },
+  {
+    "name": "横横家 仙台店",
+    "city": "仙台",
+    "address": "若林区新寺1丁目4-31",
+    "website": null
+  },
+  {
+    "name": "らぁ麺すみ田",
+    "city": "仙台",
+    "address": "若林区新寺1丁目3-21",
+    "website": null
+  },
+  {
+    "name": "中華そば専門 田中そば店 仙台長町店",
+    "city": "仙台",
+    "address": "太白区長町5丁目2-6",
+    "website": null
+  },
+  {
+    "name": "らーめん本竈",
+    "city": "仙台",
+    "address": "宮城野区岩切分台3丁目5-12",
+    "website": null
+  },
+  {
+    "name": "中華そば 一休",
+    "city": "仙台",
+    "address": "宮城野区宮城野1丁目1-37",
+    "website": null
+  },
+  {
+    "name": "中華そば 富士屋",
+    "city": "仙台",
+    "address": "青葉区本町2丁目14-26",
+    "website": null
+  },
+  {
+    "name": "太平楽 泉店",
+    "city": "仙台",
+    "address": "泉区七北田大沢柏33-1",
+    "website": null
+  },
+  {
+    "name": "仙台中華蕎麦 仁屋",
+    "city": "仙台",
+    "address": "青葉区本町1丁目12-12",
+    "website": null
+  },
+  {
+    "name": "長町ラーメン",
+    "city": "仙台",
+    "address": "太白区向山4丁目26-19",
+    "website": null
+  },
+  {
+    "name": "麺屋58",
+    "city": "仙台",
+    "address": "青葉区錦町1丁目3-5",
+    "website": null
+  },
+  {
+    "name": "一閃閣",
+    "city": "仙台",
+    "address": "青葉区国分町2丁目10-10",
+    "website": null
+  },
+  {
+    "name": "らーめんONE",
+    "city": "仙台",
+    "address": "宮城野区中野1丁目2-36",
+    "website": null
+  },
+  {
+    "name": "つけ麺屋しずく",
+    "city": "仙台",
+    "address": "青葉区錦町1丁目2-8",
+    "website": null
+  },
+  {
+    "name": "麺王道 勝",
+    "city": "仙台",
+    "address": "泉区南光台南3丁目1-1",
+    "website": null
+  },
+  {
+    "name": "ちばき屋 仙台店",
+    "city": "仙台",
+    "address": "宮城野区つつじが丘2丁目3-36",
+    "website": null
+  },
+  {
+    "name": "魔界ラーメン 月光",
+    "city": "仙台",
+    "address": "青葉区中山8丁目22-18",
+    "website": null
+  },
+  {
+    "name": "自家製麵 風夏",
+    "city": "仙台",
+    "address": "宮城野区岩切3丁目1-1",
+    "website": null
+  },
+  {
+    "name": "えびそば えび助",
+    "city": "仙台",
+    "address": "青葉区国分町3丁目8-7",
+    "website": null
+  },
+  {
+    "name": "中華そば太平楽 六丁の目店",
+    "city": "仙台",
+    "address": "若林区六丁の目東町2-10",
+    "website": null
+  },
+  {
+    "name": "王道家直系 鬼道家",
+    "city": "仙台",
+    "address": "青葉区立町27-32",
+    "website": null
+  },
+  {
+    "name": "中華そば まるたけ",
+    "city": "仙台",
+    "address": "宮城野区岩切今市東293",
+    "website": null
+  },
+  {
+    "name": "らぁ麺屋09.",
+    "city": "仙台",
+    "address": "若林区中倉3丁目16-28",
+    "website": null
+  },
+  {
+    "name": "味噌らーめん ことぶき",
+    "city": "仙台",
+    "address": "若林区荒町158-2",
+    "website": null
+  },
+  {
+    "name": "らーめん かいじ 泉店",
+    "city": "仙台",
+    "address": "泉区市名坂黒木川原34-2",
+    "website": null
+  },
+  {
+    "name": "麺匠 玄龍 ララガーデン長町店",
+    "city": "仙台",
+    "address": "太白区長町7丁目20-5 ララガーデン長町3F",
+    "website": null
+  },
+  {
+    "name": "おり久",
+    "city": "仙台",
+    "address": "青葉区落合2丁目1-1",
+    "website": null
+  },
+  {
+    "name": "北○",
+    "city": "仙台",
+    "address": "青葉区一番町4丁目4-23",
+    "website": null
+  },
+  {
+    "name": "ラーメン☆ビリー 東仙台本店",
+    "city": "仙台",
+    "address": "宮城野区東仙台4丁目6-31",
+    "website": null
+  }
+]
