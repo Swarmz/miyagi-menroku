@@ -1,6 +1,6 @@
 class VisitsController < ApplicationController
   before_action :set_shops, only: [ :new, :create, :edit, :update ]
-  before_action :set_visit, only: [ :show, :edit, :update ]
+  before_action :set_visit, only: [ :show, :edit, :update, :destroy ]
 
   def index
     @visits = Visit.all
@@ -33,6 +33,11 @@ class VisitsController < ApplicationController
     else
       render :edit, status: :unprocessable_entity
     end
+  end
+
+  def destroy
+    @visit.destroy
+    redirect_to shops_path, notice: "Visit was successfully deleted."
   end
 
   private

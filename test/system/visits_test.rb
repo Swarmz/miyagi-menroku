@@ -40,4 +40,17 @@ class VisitsTest < ApplicationSystemTestCase
     visit.reload
     assert_equal new_shop, visit.shop
   end
+
+  test "should destroy visit" do
+    visit = visits(:visit)
+
+    visit visit_url(visit)
+
+    accept_confirm do
+      click_on "Delete Visit", match: :first
+    end
+
+
+    assert_text "Visit was successfully deleted."
+  end
 end
