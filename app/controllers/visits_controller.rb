@@ -1,12 +1,12 @@
 class VisitsController < ApplicationController
-  before_action :set_shops, only: [ :new, :create ]
+  before_action :set_shops, only: [ :new, :create, :edit, :update ]
+  before_action :set_visit, only: [ :show, :edit, :update ]
 
   def index
     @visits = Visit.all
   end
 
   def show
-    @visit = Visit.find(params[:id])
   end
 
   def new
@@ -24,6 +24,17 @@ class VisitsController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @visit.update(visit_params)
+      redirect_to shops_path, notice: "Visit was successfully updated."
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
   private
     def visit_params
       params.expect(visit: %i[shop_id menu_item rating visited_on notes])
@@ -31,5 +42,9 @@ class VisitsController < ApplicationController
 
     def set_shops
       @shops = Shop.order(:name)
+    end
+
+    def set_visit
+      @visit = Visit.find(params[:id])
     end
 end
