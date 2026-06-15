@@ -1,5 +1,8 @@
+<h1> Your visit to <%= @visit.shop.name %> </h1>
+
 <%= render @visit %>
 
 <div>
+  <%= link_to "Edit Visit", edit_visit_path(@visit) %>
   <%= link_to "Back to shop list", shops_path %>
 </div>

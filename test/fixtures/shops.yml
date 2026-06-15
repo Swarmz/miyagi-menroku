@@ -1,0 +1,13 @@
+shop1:
+  id: 1
+  name: "Miyagi Ramen"
+  city: "Tokyo"
+  address: "123 Ramen St, Tokyo, Japan"
+  website: "https://miyagiramen.com"
+
+shop2:
+  id: 2
+  name: "Sakura Noodles"
+  city: "Kyoto"
+  address: "456 Noodle Ave, Kyoto, Japan"
+  website: "https://sakuranoodles.com"
