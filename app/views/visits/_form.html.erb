@@ -1,0 +1,36 @@
+<%= form_with(model: visit) do |form| %>
+  <%#= render 'application/validation_errors', resource: visit %>
+
+  <div>
+    <%= form.label :shop_id, style: "display: block" %>
+    <%= form.collection_select :shop_id,
+                               @shops,
+                               :id,
+                               :name,
+                               prompt: "Select a shop" %>
+  </div>
+
+  <div>
+    <%= form.label :menu_item, style: "display: block" %>
+    <%= form.text_field :menu_item %>
+  </div>
+
+  <div>
+    <%= form.label :rating, style: "display: block" %>
+    <%= form.text_field :rating %>
+  </div>
+
+  <div>
+    <%= form.label :visited_on, style: "display: block" %>
+    <%= form.date_field :visited_on %>
+  </div>
+
+  <div>
+    <%= form.label :notes, style: "display: block" %>
+    <%= form.text_area :notes %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
