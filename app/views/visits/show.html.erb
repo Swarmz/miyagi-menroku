@@ -4,5 +4,11 @@
 
 <div>
   <%= link_to "Edit Visit", edit_visit_path(@visit) %>
+<%= button_to "Delete Visit",
+              @visit,
+              method: :delete,
+              data: {
+                turbo_confirm: "Are you sure?"
+              } %>
   <%= link_to "Back to shop list", shops_path %>
 </div>
