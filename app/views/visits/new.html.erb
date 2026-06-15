@@ -1,0 +1,6 @@
+# <% title = t('views.common.title_new', name: Visit.model_name.human.downcase) %>
+# <% content_for :title, title %>
+
+<h1> New Visit </h1>
+
+<%= render "form", visit: @visit %>

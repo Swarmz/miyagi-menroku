@@ -1,6 +1,7 @@
 class ShopsController < ApplicationController
   def index
     @shops = Shop.all
+    @visits = Visit.all
   end
 
   def show

@@ -1,0 +1,26 @@
+<div id="<%= dom_id visit %>">
+  <p>
+    <strong><%= Visit.human_attribute_name(:shop) %>:</strong>
+    <%= visit.shop.name %>
+  </p>
+
+  <p>
+    <strong><%= Visit.human_attribute_name(:menu_item) %>:</strong>
+    <%= visit.menu_item %>
+  </p>
+
+  <p>
+    <strong><%= Visit.human_attribute_name(:rating) %>:</strong>
+    <%= visit.rating %>
+  </p>
+
+  <p>
+    <strong><%= Visit.human_attribute_name(:visited_on) %>:</strong>
+    <%= visit.visited_on %>
+  </p>
+
+  <p>
+    <strong><%= Visit.human_attribute_name(:notes) %>:</strong>
+    <%= visit.notes || "-" %>
+  </p>
+</div>

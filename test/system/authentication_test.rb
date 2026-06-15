@@ -25,19 +25,18 @@ class AuthenticationTest < ApplicationSystemTestCase
     assert_text "Signed in successfully"
   end
 
-  # ---> Disabled until root route is created <---
-  # test "user can sign out" do
-  #   User.create!(email: "test@example.com", password: "password123")
-  #   visit new_user_session_path
+  test "user can sign out" do
+    User.create!(email: "test@example.com", password: "password123")
+    visit new_user_session_path
 
-  #   fill_in "Email", with: "test@example.com"
-  #   fill_in "Password", with: "password123"
+    fill_in "Email", with: "test@example.com"
+    fill_in "Password", with: "password123"
 
-  #   click_button "Log in"
-  #   assert_text "Signed in successfully"
+    click_button "Log in"
+    assert_text "Signed in successfully"
 
-  #   click_button "Sign out"
+    click_button "Sign out"
 
-  #   assert_text "Signed out successfully"
-  # end
+    assert_text "Signed out successfully"
+  end
 end
