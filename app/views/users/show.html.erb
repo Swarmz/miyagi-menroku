@@ -1,0 +1,9 @@
+<h1>Profile</h1>
+<p>Email: <%= @user.email %></p>
+<p>Joined on: <%= @user.created_at.strftime("%B %d, %Y") %></p>
+<h2>Recent Visits</h2>
+<ul>
+  <% @visits.each do |visit| %>
+    <li><%= link_to visit.shop.name, shop_path(visit.shop) %> - <%= visit.visited_on.strftime("%B %d, %Y") %> <%= "⭐" * visit.rating %></li>
+  <% end %>
+</ul>

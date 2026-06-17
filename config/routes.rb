@@ -14,4 +14,5 @@ Rails.application.routes.draw do
    root "shops#index"
    resources :shops, only: [ :index, :show ]
    resources :visits, only: [ :index, :show, :new, :create, :edit, :update, :destroy ]
+   resource :profile, controller: "users", only: :show
 end
