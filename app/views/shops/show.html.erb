@@ -1,4 +1,8 @@
 <%= render @shop %>
+<hr>
+<% @shop.visits.each do |visit| %>
+  <%= render visit %>
+<% end %>
 
 <div>
   <%= link_to "Back to shops", shops_path %>

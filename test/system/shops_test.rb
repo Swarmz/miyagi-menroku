@@ -34,4 +34,13 @@ class ShopsTest < ApplicationSystemTestCase
     assert_text shops(:shop1).name
     assert_text shops(:shop2).name
   end
+
+  test "shop page shows visits" do
+    shop = shops(:shop1)
+    visit_record = visits(:visit)
+
+    visit shop_path(shop)
+
+    assert_text visit_record.notes
+  end
 end
