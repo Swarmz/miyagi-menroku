@@ -5,4 +5,12 @@ class Shop < ApplicationRecord
 
   has_many :visits, dependent: :destroy
   has_many :users, through: :visits
+
+  def self.search(query)
+    if query.present?
+      where("name ILIKE ?", "%#{query}%")
+    else
+      all
+    end
+  end
 end
