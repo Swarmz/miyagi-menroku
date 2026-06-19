@@ -21,6 +21,16 @@
   <%= form.submit "Search" %>
 <% end %>
 
+<%= form_with url: shops_path, method: :get, local: true do |form| %>
+  <%= form.select :city,
+    options_for_select(
+      Shop.distinct.pluck(:city),
+      params[:city]
+    ),
+    { include_blank: "All cities" },
+    { onchange: "this.form.submit();" } %>
+<% end %>
+
 <div id="shops">
   <% @shops.each do |shop| %>
     <%= render shop %>
