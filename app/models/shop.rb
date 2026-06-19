@@ -5,7 +5,7 @@ class Shop < ApplicationRecord
 
   has_many :visits, dependent: :destroy
   has_many :users, through: :visits
-  
+
   scope :by_city, ->(city) {
     where(city:) if city.present?
   }
@@ -17,5 +17,4 @@ class Shop < ApplicationRecord
       all
     end
   end
-    
 end
